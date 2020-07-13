@@ -1,0 +1,16 @@
+{
+  "name": "vite-symlink-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "link": "npm link @vite-symlink-test/foo @vite-symlink-test/bar"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-beta.15"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "vite": "^1.0.0-beta.11"
+  }
+}
